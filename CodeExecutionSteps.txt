@@ -1,0 +1,108 @@
+HW1 - Machine Learning - CS6375
+
+Steps to execute code:
+
+1. Multinomial Naive Bayes :
+
+Filename : BOW_NB.py
+
+Command to execute this algorithm
+
+python BOW_NB.py filepath
+
+Example of file path : ./HW1,./enron1,./enron4
+
+2. Discrete Naive Bayes :
+
+Filename : BER_NB.py
+
+Command to execute this algorithm
+
+python BER_NB.py filepath
+
+Example of file path : ./HW1,./enron1,./enron4
+
+3. Logistic regression
+
+Bag of words model :
+
+Filename : BOW_LR.py
+
+Command to execute this algorithm
+
+python BOW_LR.py filepath
+
+Example of file path : ./HW1,./enron1,./enron4
+
+Bernoulli model :
+
+Filename : BER_LR.py
+
+Command to execute this algorithm
+
+python BER_LR.py filepath
+
+Example of file path : ./HW1,./enron1,./enron4
+
+4. SGDClassifier
+
+Bag of words model :
+
+Filename : BOW_SGDC.py
+
+Command to execute this algorithm
+
+python BOW_SGDC.py filepath
+
+Example of file path : ./HW1,./enron1,./enron4
+
+Bernoulli model :
+
+Filename : BER_SGDC.py
+
+Command to execute this algorithm
+
+python BER_SGDC.py filepath
+
+Example of file path : ./HW1,./enron1,./enron4
+
+                                      
+Python version 3.9
+
+Libraries used are :
+
+Naive Bayes :
+
+import os
+import pandas as pd
+import math
+import string
+import sys
+
+Logistic Regression:
+
+import os
+import pandas as pd
+import numpy as np
+import math
+import random
+import string
+import sys
+
+SGDClassifier:
+
+import os
+import pandas as pd
+import numpy as np
+import math
+import random
+import string
+from sklearn.model_selection import GridSearchCV
+from sklearn.linear_model import SGDClassifier
+import sys
+
+
+
+
+Make sure the folder is int the C drive and the dataset name is a folder inside with test and train data which have folders called spam and ham.
+ex. C:\CS6375HW1\enron1\test\ham
