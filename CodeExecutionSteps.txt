@@ -103,6 +103,6 @@ import sys
 
 
 
-
-Make sure the folder is int the C drive and the dataset name is a folder inside with test and train data which have folders called spam and ham.
+Make sure to unzip the files.
+Make sure the folder is in the C drive and the dataset name is a folder inside with test and train data which have folders called spam and ham.
 ex. C:\CS6375HW1\enron1\test\ham
